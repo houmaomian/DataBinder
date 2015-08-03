@@ -23,5 +23,20 @@
             android:gravity="center"
             android:text="@{String.valueOf(person.age)}"/>
 
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:padding="5dip"
+            android:hint="name" />
+
+        <Button
+            android:id="@+id/bt_change"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dip"
+            android:paddingBottom="5dip"
+            android:text="changeName"/>
+
     </LinearLayout>
 </layout>
